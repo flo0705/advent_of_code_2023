@@ -1,2 +1,9 @@
 bin
 inputs
+.ninja*
+CMakeFiles
+aoc*
+CMakeCache.txt
+cmake_install.cmake
+CMakeCache.txt
+build.ninja
