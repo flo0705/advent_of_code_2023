@@ -2,6 +2,7 @@
 #include "06.hpp"
 #include "07.hpp"
 #include "08.hpp"
+#include "09.hpp"
 #include "shl/print.hpp";
 #include "shl/file_stream.hpp"
 #include "shl/print.hpp";
@@ -34,8 +35,13 @@ int main(int argc, char* argv[]) {
    // aoc_07_2("inputs/07.txt");
 
     tprint("AOC 08\n");
-	string file_content = read_file("inputs/08.txt");
-	aoc_08_1(file_content);
-	aoc_08_2(file_content);
+    string file_08 = read_file("inputs/08.txt");
+    aoc_08_1(file_08);
+    aoc_08_2(file_08);
+
+    tprint("AOC 09\n");
+    string file_09 = read_file("inputs/09.txt");
+    aoc_09_1(file_09);
+    aoc_09_2(file_09);
 }
 
